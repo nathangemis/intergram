@@ -32,7 +32,7 @@ function injectChat() {
 
         try {
             const request = new XMLHttpRequest();
-            request.open('POST', server + '/usage-start?host=' + host);
+            request.open('POST', server + 'usage-start?host=' + host);
             request.send();
         } catch (e) { /* Fail silently */ }
 
